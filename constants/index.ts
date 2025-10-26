@@ -167,10 +167,123 @@ export const BACKEND_SKILL = [
 ] as const;
 
 export const FULLSTACK_SKILL = [
+  {
+    skill_name: "React Query",
+    image: "reactquery.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "TypeScript",
+    image: "ts.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "PostgreSQL",
+    image: "postgresql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Figma",
+    image: "figma.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Docker",
+    image: "docker.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "MUI",
+    image: "mui.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Firebase",
+    image: "firebase.png",
+    width: 55,
+    height: 55,
+  },
+  {
+    skill_name: "GraphQL",
+    image: "graphql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next Auth",
+    image: "nextauth.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Prisma",
+    image: "prisma.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "MySQL",
+    image: "mysql.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "React Native",
+    image: "reactnative.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Tauri",
+    image: "tauri.png",
+    width: 70,
+    height: 70,
+  },
 ] as const;
 
 export const OTHER_SKILL = [
-
+  {
+    skill_name: "Next Auth",
+    image: "nextauth.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Prisma",
+    image: "prisma.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "MySQL",
+    image: "mysql.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "React Native",
+    image: "reactnative.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Tauri",
+    image: "tauri.png",
+    width: 70,
+    height: 70,
+  },
 ] as const;
 
 export const PROJECTS = [
@@ -245,5 +358,3 @@ export const NAV_LINKS = [
     link: "#projects",
   },
 ] as const;
-
-
